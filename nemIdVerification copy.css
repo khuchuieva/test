@@ -1,0 +1,14 @@
+.dknemid-error {
+  color: transparent;
+  font-size: 0;
+  z-index: -100;
+}
+
+.dknemid-error:after {
+  font-size: 16px;
+  color: black;
+}
+
+form .dknemid-error:after {
+  content: 'Du har indtastet forkert CPR-nummer.';
+}
